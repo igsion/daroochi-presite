@@ -1,0 +1,208 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: calc(16px + (24 - 16)*(100vw - 320px)/ (1280 - 320));
+}
+
+body, .preloader {
+  display: flex;
+}
+
+body {
+  background: url("../images/daroochi.png") center no-repeat;
+  color: #34e67f;
+  font: 1em Dosis, sans-serif;
+  height: 100vh;
+  line-height: 1.5;
+  perspective: 40em;
+}
+
+.preloader {
+  animation: tiltSpin 12s linear infinite;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 17em;
+  height: 17em;
+}
+.preloader, .preloader__ring {
+  transform-style: preserve-3d;
+}
+.preloader__ring {
+  animation-name: spin;
+  animation-duration: 6s;
+  animation-timing-function: inherit;
+  animation-iteration-count: inherit;
+  font-size: 2em;
+  position: relative;
+  height: 3rem;
+  width: 1.5rem;
+}
+.preloader__ring:nth-child(even) {
+  animation-direction: reverse;
+}
+.preloader__sector {
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translateZ(10rem);
+}
+.preloader__sector, .preloader__sector:empty:before {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.preloader__sector:empty:before {
+  background: linear-gradient(transparent 45%, currentColor 45% 55%, transparent 55%);
+  content: "";
+}
+.preloader__sector:nth-child(2) {
+  transform: rotateY(8.5714285714deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(3) {
+  transform: rotateY(17.1428571429deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(4) {
+  transform: rotateY(25.7142857143deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(5) {
+  transform: rotateY(34.2857142857deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(6) {
+  transform: rotateY(42.8571428571deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(7) {
+  transform: rotateY(51.4285714286deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(8) {
+  transform: rotateY(60deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(9) {
+  transform: rotateY(68.5714285714deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(10) {
+  transform: rotateY(77.1428571429deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(11) {
+  transform: rotateY(85.7142857143deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(12) {
+  transform: rotateY(94.2857142857deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(13) {
+  transform: rotateY(102.8571428571deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(14) {
+  transform: rotateY(111.4285714286deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(15) {
+  transform: rotateY(120deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(16) {
+  transform: rotateY(128.5714285714deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(17) {
+  transform: rotateY(137.1428571429deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(18) {
+  transform: rotateY(145.7142857143deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(19) {
+  transform: rotateY(154.2857142857deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(20) {
+  transform: rotateY(162.8571428571deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(21) {
+  transform: rotateY(171.4285714286deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(22) {
+  transform: rotateY(180deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(23) {
+  transform: rotateY(188.5714285714deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(24) {
+  transform: rotateY(197.1428571429deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(25) {
+  transform: rotateY(205.7142857143deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(26) {
+  transform: rotateY(214.2857142857deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(27) {
+  transform: rotateY(222.8571428571deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(28) {
+  transform: rotateY(231.4285714286deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(29) {
+  transform: rotateY(240deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(30) {
+  transform: rotateY(248.5714285714deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(31) {
+  transform: rotateY(257.1428571429deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(32) {
+  transform: rotateY(265.7142857143deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(33) {
+  transform: rotateY(274.2857142857deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(34) {
+  transform: rotateY(282.8571428571deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(35) {
+  transform: rotateY(291.4285714286deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(36) {
+  transform: rotateY(300deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(37) {
+  transform: rotateY(308.5714285714deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(38) {
+  transform: rotateY(317.1428571429deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(39) {
+  transform: rotateY(325.7142857143deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(40) {
+  transform: rotateY(334.2857142857deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(41) {
+  transform: rotateY(342.8571428571deg) translateZ(10rem);
+}
+.preloader__sector:nth-child(42) {
+  transform: rotateY(351.4285714286deg) translateZ(10rem);
+}
+
+/* Animations */
+@keyframes tiltSpin {
+  from {
+    transform: rotateY(0) rotateX(30deg);
+  }
+  to {
+    transform: rotateY(1turn) rotateX(30deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(1turn);
+  }
+}
