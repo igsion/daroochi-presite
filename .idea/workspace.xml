@@ -1,17 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e54bd95-867a-4601-9684-c2818db5a91d" name="Default Changelist" comment="" />
+    <list default="true" id="4e54bd95-867a-4601-9684-c2818db5a91d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/multer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/multer/lib/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/multer/lib/file-appender.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/multer/lib/make-middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/multer/lib/multer-error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/multer/lib/remove-uploaded-files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/multer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/multer/storage/disk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/multer/storage/memory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/compat/check-constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/compat/warn-deprecation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/connection-fast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/connection-parameters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/connection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/native/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/native/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/native/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/sasl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/type-overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/pg/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1583949822430.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1583949870075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1583950070644.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1583950399064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1583950453535.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1583950924150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1583951060821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/product_api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YODCWA8jQXKHLDKdffRkzR0VT9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -38,10 +102,28 @@
       <option name="presentableId" value="Default" />
       <updated>1582804619108</updated>
       <workItem from="1582804620284" duration="269000" />
+      <workItem from="1583938160821" duration="1344000" />
+      <workItem from="1583948198595" duration="3794000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

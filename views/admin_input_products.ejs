@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/admin_input_products.css"/>
+</head>
+<body class="admin-dashboard">
+<div>
+
+    <!--    enctype="multipart/form-data"      action="/admin/addProduct">-->
+    <nav class="navbar menubar">
+        <a class="navbar-brand">Daroochi</a>
+    </nav>
+    <div class="row">
+        <div class="col-md-3 sidebar">
+            <img src="/images/logo-with-white-text.png"
+                 srcset="/images/logo-with-white-text@2x.png 2x,
+             /images/logo-with-white-text@3x.png 3x"
+                 class="logo-with-white-text" alt="logo-with-white-text">
+            <div class="user_rectangle">
+
+            </div>
+        </div>
+        <div class="col-md-9">
+            <form class="white_center_rectangle" enctype="multipart/form-data" method="POST" action="../api/product">
+                <div class="form-row">
+                    <div class="col">
+                        <div class="form-group">
+                            <div class="Group_form1">
+                                <input type="text" name="name" class="form_small_rec" required="required"/>
+                                <label for="productName" class="form-font-label">نام کالا:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <div class="Group_form1">
+                                <input type="text" name="englishName" id="productName" class="form_small_rec"
+                                       required="required"/>
+                                <label for="productName" class="form-font-label">نام لاتین:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <div class="Group_form1">
+                                <input type="text" name="brand" id="brand" class="form_small_rec" required="required"/>
+                                <label for="brand" class="form-font-label">برند:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="Group_form1">
+                                <input type="text" name="category" id="category" class="form_small_rec" required="required">
+                                <label for="category" class="form-font-label">دسته:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="Group_form1">
+                                <input type="text" name="subCategory" class="form_small_rec" id="subcategory" required="required">
+                                <label for="subcategory" class="form-font-label">زیردسته:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <div class="Group_form1">
+                                <input type="text" name="genre" class="form_small_rec" id="genre" required="required">
+                                <label for="genre" class="form-font-label">ژانر:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="BGroup_form1">
+                                <!--  edit  -->
+                                <input type="text" name="description" id="description" class="form_big_rec"
+                                       required="required"/>
+                                <label for="description" class="form-font-label">توضیحات:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="Group_form1">
+                                <input type="text" name="barcode" id="barcode" class="form_small_rec"
+                                       required="required"/>
+                                <label for="barcode" class="form-font-label">بارکد:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="Group_form1">
+                                <input type="text" name="price" id="price" class="form_small_rec" required="required"/>
+                                <label for="price" class="form-font-label">قیمت:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="Group_form1">
+                                <input type="text" name="Qty" id="Amount" class="form_small_rec" required="required"/>
+                                <label for="Amount" class="form-font-label">موجودی:</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <div class="Group_form2">
+                                <input type="text" name="shape" id="shape" class="form_small_rec" required="required"/>
+                                <label for="shape" class="form-font-label">شکل:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="Group_form2">
+                                <input type="text" name="size" id="size" class="form_small_rec" required="required"/>
+                                <label for="size" class="form-font-label">سایز:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="Group_form2">
+                                <input type="text" name="volume" id="volume" class="form_small_rec"
+                                       required="required"/>
+                                <label for="volume" class="form-font-label">حجم:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="Group_form2">
+                                <input type="text" name="color" id="color" class="form_small_rec" required="required"/>
+                                <label for="color" class="form-font-label">رنگ:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="Group_form2">
+                                <input type="text" name="country" id="country" class="form_small_rec"
+                                       required="required"/>
+                                <label for="country" class="form-font-label">کشور سازنده:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="Group_form2">
+                                <input type="text" name="amountPerPack" id="amountPerPack" class="form_small_rec"
+                                       required="required"/>
+                                <label for="amountPerPack" class="form-font-label">تعداد در بسته:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="BGroup_form2">
+                                <!--  edit  -->
+                                <input type="text" name="warning" id="warning" class="form_big_rec" required="required"/>
+                                <label for="warning" class="form-font-label">هشدار:</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <div class="Group_form_img">
+                                <input type="file" name="image" id="productImage"
+                                       class="form-control-file form_small_rec"
+                                       required="required"/>
+                                <label for="productImage" class="form-font-label">عکس : </label>
+                                <div></div>
+                            </div>
+                        </div>
+
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                        <div><br></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="c">
+                        <button class="cancel col-12" onclick="window.location='#';return false;">انصراف
+                        </button>
+                    </div>
+                    <div class="">
+                        <input type="submit" name="submit" id="submitButton" class="accept col-12"
+                               value="ثبت اطلاعات کالا"
+                               required="required"/>
+                        <!--                            <label for="submitButton" class="accept"></label>-->
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
